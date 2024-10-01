@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: gestaodeprojetos
+  datasource:
+    url: jdbc:mysql://localhost:5432/gestao-projetos
+    username: root
+    password: rootpassword
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

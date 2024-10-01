@@ -1,0 +1,69 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Maven / Gradle / Build directories
+target/
+build/
+
+# Eclipse, IntelliJ IDEA, NetBeans, VS Code, and other IDE-specific files
+*.swp
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+*.settings/
+.vscode/
+.nbproject/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Generated files (JPA or Hibernate, for example)
+*.h2.db
+*.db
+
+# Dependency directories
+lib/
+libs/
+
+# Bytecode for Java modules (Java 9+)
+*.jmod
+
+# Local environment files
+.env
+
+# Lombok generated files
+.lombok/
+
+# Generated docs
+*.pdf
+
+# JUnit results
+test-output/
+
+# Spring Boot specific
+*.db
+*.h2.db
