@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 import java.util.Date;
 import java.util.Optional;
 
-//Classe responsável por gerar o token JWT, é um seviço para geração do token!
+//Um filtro personalizado que intercepta as requisições HTTP para validar o token JWT antes de permitir o acesso aos recursos protegidos. Ele autentica as requisições usando o token JWT.
 //Para que eu consiga utilizar essa classe de qualquer lugar, anoto ela com @Component
 //@Component --> Digo que a classe é uma Bean, com isso o Spring irá conseguir injetar ela dentro do seu container de dependência, e quando precisar utilizar, utilizo o @Autowired
 @Component

@@ -11,7 +11,7 @@ import java.util.Optional;
 import java.util.function.Supplier;
 
 //CustomUserDetailsService --> Nome padrão
-//São configurações de detalhes de serviço do usuário, algumas coisas que o JWT, algumas camadas nossas irão utilizar para saber quem é o usuário, se ele está autenticado ou não
+//Responsável por carregar os dados do usuário para autenticação (geralmente do BD), algumas camadas nossas irão utilizar para saber quem é o usuário, se ele está autenticado ou não
 @Service
 public class CustomUserDetailsService implements UserDetailsService {
 
