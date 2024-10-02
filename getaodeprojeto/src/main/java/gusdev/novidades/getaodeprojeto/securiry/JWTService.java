@@ -1,4 +1,4 @@
-package gusdev.novidades.getaodeprojeto.service;
+package gusdev.novidades.getaodeprojeto.securiry;
 
 import gusdev.novidades.getaodeprojeto.model.Usuario;
 import io.jsonwebtoken.Claims;
