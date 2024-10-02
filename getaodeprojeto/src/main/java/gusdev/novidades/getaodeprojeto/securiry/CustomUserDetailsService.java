@@ -21,10 +21,12 @@ public class CustomUserDetailsService implements UserDetailsService {
     //Obter o usuário
     @Override
     public UserDetails loadUserByUsername(String email) {
+        //return usuarioService.obterPorEmail(email).get();
         return getUser(() -> usuarioService.obterPorEmail(email));
     }
 
     public UserDetails loadUserById(Long id) {
+        //return usuarioService.obterPorId(id).get();
         return getUser(() -> usuarioService.obterPorId(id));
     }
 
