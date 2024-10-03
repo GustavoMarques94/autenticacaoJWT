@@ -5,7 +5,7 @@ FROM mysql:8.0
 ENV MYSQL_ROOT_PASSWORD=rootpassword
 
 # Definir o nome do banco de dados que será criado
-ENV MYSQL_DATABASE=meu_banco
+ENV MYSQL_DATABASE=gestao-projetos
 
 # Copiar o arquivo de criação de tabela SQL para o container
 COPY ./init.sql /docker-entrypoint-initdb.d/

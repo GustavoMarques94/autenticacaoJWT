@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cd71fcac-ead1-4544-9af9-8e2d279462b7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/securiry/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/securiry/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/securiry/JWTService.java" beforeDir="false" afterPath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/securiry/JWTService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/securiry/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/securiry/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getaodeprojeto/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/getaodeprojeto/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getaodeprojeto/init.sql" beforeDir="false" afterPath="$PROJECT_DIR$/getaodeprojeto/init.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/service/UsuarioService.java" beforeDir="false" afterPath="$PROJECT_DIR$/getaodeprojeto/src/main/java/gusdev/novidades/getaodeprojeto/service/UsuarioService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727807414135</updated>
       <workItem from="1727807415347" duration="21523000" />
-      <workItem from="1727886526861" duration="5259000" />
+      <workItem from="1727886526861" duration="18255000" />
     </task>
     <servers />
   </component>
